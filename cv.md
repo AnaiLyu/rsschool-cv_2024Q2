@@ -1,9 +1,8 @@
-# Anai Lyu
+# ___Anai Lyu___
 
----
+***
 
 ### Contacts
-
 ---
 
 - E-mail: lyuanai88@gmail.com
@@ -12,13 +11,11 @@
 - Telegram: @liana2221
 
 ### About Me
-
 ---
 
 I strive to be part of a friendly and professional team where I could develop my Frontend development skills to achieve team results.
 
 ### Skills
-
 ---
 
 - HTML5
@@ -28,7 +25,6 @@ I strive to be part of a friendly and professional team where I could develop my
 - VS Code, Sublime Text
 
 ### Code Example
-
 ---
 
 The function that determines the second largest number
@@ -55,25 +51,21 @@ const secondMaxNum = (arr) => {
 ```
 
 ### Experience
-
 ---
 
 Work on projects during training:
 
-- The site created on the html5/css3 training course with semantic layout has a block with video, as well as video as a background. https://ananailyu.github.io/HTML5/simple_psd_template/
-
-- Website created on the html5/css3 tutorial. There is a mobile version for the screen 576px. The site is entirely built on flexbox. https://github.com/AnaiLyu/HTML5/tree/master/new
+- The site [created on the html5/css3 training course with semantic layout has a block with video, as well as video as a background.](https://anailyu.github.io/HTML5/simple_psd_template/)
+ 
+- Website [created on the html5/css3 tutorial. There is a mobile version for the screen 576px. The site is entirely built on flexbox.](https://github.com/AnaiLyu/HTML5/tree/master/new)
 
 ### Education
-
 ---
 
 - RS Schools Course «JavaScript/Front-end» (in progress)
 - gb.ru Frontend developer (in progress)
-- Full course 11 hours Javascript for beginners https://youtu.be/CxgOKJh4zWE
-
+- [Full course 11 hours Javascript](https://youtu.be/CxgOKJh4zWE) for beginners 
 ### Languages
-
 ---
 
 - Russian (Native)
