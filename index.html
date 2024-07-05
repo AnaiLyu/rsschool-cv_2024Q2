@@ -5,10 +5,122 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Anai Lyu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+  <div class="container">
+    <header>
+      <img src="assets/ava-anai.png" alt="avatar AnaiLyu">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a href="#experience">Experience</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#code">Code</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#languages">Languages</a></li>
+          <li class="nav-item"><a href="">School</a></li>
+        </ul>
+      </nav>
+      <section class="profile">
+        <h1>Anai Lyu</h1>
+        <span class=" about-sub_title">Trainee Front End Developer</span>
+      </section>
+      <section class="about" id="about">
+        <h3>About Me</h3>
+        <p>I strive to be part of a friendly and professional team where I could develop my Frontend development skills
+          to achieve team results.</p>
+      </section>
+    </header>
+    <main>
+      <section class="contacts" id="contacts">
+        <h3>Contacts</h3>
+        <ul class="contacts-list">
+          <li class="contacts-item">E-mail: lyuanai88@gmail.com</li>
+          <li class="contacts-item">
+            Phone: +30 695 797 1721</li>
+          <li class="contacts-item">GitHub: AnaiLyu</li>
+          <li class="contacts-item">
+            Telegram: @liana2221</li>
+        </ul>
+      </section>
+      <section class="skills" id="skills">
+        <h3>Skills</h3>
+        <ul class="skills-list">
+          <li class="skills-item">HTML5</li>
+          <li class="skills-item">CSS3</li>
+          <li class="skills-item">JavaScript (Basic)</li>
+          <li class="skills-item">Git, GitHub</li>
+          <li class="skills-item">Terminal</li>
+          <li class="skills-item">VS Code, Sublime Text</li>
+          <li class="skills-item">Figma</li>
+        </ul>
+      </section>
+      <section class="experience" id="experience">
+        <h3>Experience</h3>
+        <p>Work on projects during training:</p>
+        <ul class="experience-list">
+          <li class="experience-item">The site created on the html5/css3 training course with semantic layout has a
+            block with video, as well as video as a background.<a
+              href="https://anailyu.github.io/HTML5/simple_psd_template/">Here</a></li>
+          <li class="experience-item">Website created on the html5/css3 tutorial. There is a mobile version for the
+            screen 576px. The site is entirely built on flexbox.<a href="https://anailyu.github.io/HTML5/new/">Here</a>
+          </li>
+        </ul>
+      </section>
+      <section class="code" id="code">
+        <h3>Code Example</h3>
+        <p>The function that determines the second largest number</p>
+        <!-- <pre>
+          <code>
+            const secondMaxNum = (arr) => {
+              const numLength = arr.length;
+              let max = arr[0];
+              let secondMax = 0;
 
+              for (let i = 0; i < numLength; i++) {
+                if (max < arr[i]) {
+                  max = arr[i];
+                }
+              }
+
+              for (let i = 0; i < numLength; i++) {
+                if (max > arr[i] && secondMax < arr[i]) {
+                  secondMax = arr[i];
+                }
+              }
+              return secondMax;
+            }
+        </code>
+      </pre> -->
+      </section>
+      <section class="languages" id="languages">
+        <h3>Languages</h3>
+        <ul class="languages-list">
+          <li class="languages-item">Ukrainian (Native)</li>
+          <li class="languages-item">Russian (Native)</li>
+          <li class="languages-item">Greek (Intermediate)</li>
+          <li class="languages-item">English (Elementary)</li>
+        </ul>
+      </section>
+      <section class="education" id="education">
+        <h3>Education</h3>
+        <ul class="education-list">
+          <li class="education-item">RS Schools Course &quot;<a href="https://rs.school/js/"
+              target="_blank">JavaScript/Front-end</a>&quot; (in
+            progress)</li>
+          <li class="education-item"><a href="https://gb.ru/" target="_blank">GB</a> - Frontend developer (in progress)
+          </li>
+          <li class="education-item">Full course 11 hours <a href="https://youtu.be/CxgOKJh4zWE"
+              target="_blank">Javascript</a> for beginners</li>
+        </ul>
+      </section>
+    </main>
+    <footer></footer>
+  </div>
 </body>
 
 </html>
