@@ -64,7 +64,8 @@ Work on projects during training:
 
 - RS Schools Course «JavaScript/Front-end» (in progress)
 - gb.ru Frontend developer (in progress)
-- [Full course 11 hours Javascript](https://youtu.be/CxgOKJh4zWE) for beginners 
+- [Full course 11 hours Javascript](https://youtu.be/CxgOKJh4zWE) for beginners
+  
 ### Languages
 ---
 
