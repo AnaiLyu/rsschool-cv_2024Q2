@@ -11,7 +11,7 @@
 
 <body>
   <div class="container">
-    <header class="header">
+    <header class="header cont">
       <img src="assets/ava-anai.png" alt="avatar AnaiLyu" class="avatar">
       <div class="header-text">
         <nav class="nav">
@@ -19,11 +19,11 @@
             <li class="nav-item item"><a href="#about">About</a></li>
             <li class="nav-item item"><a href="#contacts">Contacts</a></li>
             <li class="nav-item item"><a href="#experience">Experience</a></li>
+            <li class="nav-item item"><a href="#education">Education</a></li>
             <li class="nav-item item"><a href="#skills">Skills</a></li>
             <li class="nav-item item"><a href="#code">Code</a></li>
-            <li class="nav-item item"><a href="#education">Education</a></li>
             <li class="nav-item item"><a href="#languages">Languages</a></li>
-            <li class="nav-item item"><a href="">School</a></li>
+            <li class="nav-item item"><a href="#school">School</a></li>
           </ul>
         </nav>
         <section class="profile">
@@ -38,7 +38,7 @@
         </section>
       </div>
     </header>
-    <main class="main">
+    <main class="main cont">
       <section class="contacts" id="contacts">
         <h2>Contacts</h2>
         <ul class="contacts-list list">
@@ -91,28 +91,28 @@
       <section class="code" id="code">
         <h2>Code Example</h2>
         <p>The function that determines the second largest number</p>
-        <!-- <pre>
+        <pre>
           <code>
             const secondMaxNum = (arr) => {
               const numLength = arr.length;
               let max = arr[0];
               let secondMax = 0;
 
-              for (let i = 0; i < numLength; i++) {
-                if (max < arr[i]) {
+              for (let i = 0; i &lt; numLength; i++) {
+                if (max &lt; arr[i]) {
                   max = arr[i];
                 }
               }
 
-              for (let i = 0; i < numLength; i++) {
-                if (max > arr[i] && secondMax < arr[i]) {
+              for (let i = 0; i &lt; numLength; i++) {
+                if (max > arr[i] && secondMax &lt; arr[i]) {
                   secondMax = arr[i];
                 }
               }
               return secondMax;
             }
         </code>
-      </pre> -->
+      </pre>
       </section>
       <section class="languages" id="languages">
         <h2>Languages</h2>
@@ -124,10 +124,10 @@
         </ul>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer cont">
       <a href="#">&copy; 2024</a>
-      <a href="https://github.com/AnaiLyu" target="_blank"><img src="assets/AnaiLyu.svg" alt="GitHub account"></a>
-      <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="assets/rs-school-logo.svg"
+      <a href="https://github.com/AnaiLyu" target="_blank">AnaiLyu</a>
+      <a href="https://rs.school/courses/javascript-ru" target="_blank" id="school"><img src="assets/rs-school-logo.svg"
           alt="JavaScript/Front-end Course"></a>
     </footer>
   </div>
