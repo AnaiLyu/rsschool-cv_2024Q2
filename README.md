@@ -1,5 +1,5 @@
 # rsschool-cv
 
-https://anailyu.github.io/rsschool-cv/cv
+https://anailyu.github.io/rsschool-cv_2024Q2/cv
 
-https://anailyu.github.io/rsschool-cv/
+https://anailyu.github.io/rsschool-cv_2024Q2/
